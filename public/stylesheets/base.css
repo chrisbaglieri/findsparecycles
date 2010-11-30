@@ -1,33 +1,19 @@
-/* Global */
-body { font-family: "Helvetica Neue", Helvetica, Arial, default; height: 100%; }
-a { font-weight: bold; outline: none; color: #1890D7; text-decoration: none; }
-a:hover { background: #1890D7; color: #FFFFFF; }
-.email { font-weight: bold; color: #1890D7; }
-.email:hover { background: #1890D7; color: #FFFFFF; }
- 
-/* Header */
-#header { margin-top: 40px; }
-#logo h1 { background: url("../images/logo.png") no-repeat 0 bottom; height: 110px; overflow: hidden; text-indent: -9999px; width: 400px; margin: 0pt 0pt 10px 280px; }
+body { background: #F3F1E5; border-top: 5px solid #E6E5D9; color: #4D505D; }
+#header { padding-top: 20px; }
+#header h1 { font-size: 4em; color: #FF7F00; font-family: "bistro-script-web-1","bistro-script-web-2",cursive; }
+#primary-navigation ul { float: right; margin: 17px 0pt 0pt 0pt; }
+#primary-navigation ul li { display: inline; list-style-type: none; padding: 0pt 5px 0pt 5px; border-right: 1px solid #DDDDDD; }
+#primary-navigation ul li a { font-weight: bold; text-decoration: none; color: #0C0E1A; }
+#primary-navigation ul li a:hover { text-decoration: underline; }
 
-/* Content - Shared */
-#blurb { background: #E5E5E5; margin-bottom: 25px; }
-#blurb p { font-size: 1.1em; color: #A0A0A0; margin: 20px 0pt; }
-
-/* Content - Main */
-#clients h2 { margin-bottom: 0pt; background: url("../images/client-message.png") no-repeat 0 bottom; height: 39px; overflow: hidden; text-indent: -9999px; width: 428px; }
-#users h2 { margin-bottom: 0pt; background: url("../images/user-message.png") no-repeat 0 bottom; height: 39px; overflow: hidden; text-indent: -9999px; width: 428px; }
-
-/* Content - About */
-#beliefs { margin-bottom: 15px; }
-#beliefs h2 { margin-bottom: 10px; background: url("../images/beliefs.png") no-repeat 0 bottom; height: 39px; overflow: hidden; text-indent: -9999px; width: 200px; }
-#beliefs h3 { margin-bottom: 0.5em; }
-#approach { margin-bottom: 15px; }
-#approach img { margin-left: 120px; }
-#approach h2 { margin-bottom: 10px; background: url("../images/ourapproach.png") no-repeat 0 bottom; height: 39px; overflow: hidden; text-indent: -9999px; width: 25	0px; }
-#approach h3 { margin-bottom: 0.5em; }
-#team { margin-bottom: 15px; }
-#team h2 { margin-bottom: 10px; background: url("../images/team.png") no-repeat 0 bottom; height: 39px; overflow: hidden; text-indent: -9999px; width: 200px; }
-#team h3 { margin-bottom: 0.5em; }
-
-/* Footer */
-#contact { color: #A0A0A0; padding-top: 40px; margin-bottom: 40px; }
+#content { margin-bottom: 50px; }
+#headbox  { background: white url(../images/headbox-bottom.jpg) repeat-x scroll center bottom; border-color: #E6E5D9; border-style: solid solid none; border-width: 1px; margin: 15px 0pt 25px 5px; width: 781px; }
+#headbox h2 { color: #3D3D3D; font-family: "museo-slab-1","museo-slab-2",serif; font-size: 3em; padding: 20px 15px 30px 15px; text-align: center; font-weight: 700; }
+.section { color: #3D3D3D; text-align: center; font-size: 3em; font-family: "museo-1","museo-2",serif; font-weight: 700; }
+.subsection { margin-bottom: 20px; }
+.subsection h3 { padding-bottom: 10px; font-size: 1em; text-align: center; font-weight: bold; border-bottom: 1px solid #DDDDDD; }
+.subsection img { display: block; margin: 0pt auto; padding-bottom: 20px; }
+#contact-information { text-align: center; background: #E6E5D9; padding: 10px 0pt; }
+.client { font-size: 2em; }
+.casestudy { margin-bottom: 50px; }
+#footer { height: 45px; padding: 10px 0pt 0pt 0pt; }

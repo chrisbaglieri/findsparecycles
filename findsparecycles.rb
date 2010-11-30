@@ -1,15 +1,21 @@
-# findsparecycles.rb
 require 'rubygems'
 require 'sinatra'
 
 configure :production do
-  # do nothing
 end
 
 get '/' do
   erb :index
 end
 
-get '/about' do
-  erb :about
+get '/services' do
+  erb :services
+end
+
+get '/portfolio' do
+  erb :portfolio
+end
+
+get '/contact' do
+  erb :contact
 end
