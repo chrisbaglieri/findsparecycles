@@ -9,7 +9,7 @@ body { background: #F3F1E5; border-top: 5px solid #E6E5D9; color: #4D505D; }
 #content { margin-bottom: 50px; }
 #headbox  { background: white url(../images/headbox-bottom.jpg) repeat-x scroll center bottom; border-color: #E6E5D9; border-style: solid solid none; border-width: 1px; margin: 15px 0pt 25px 5px; width: 781px; }
 #headbox h2 { color: #3D3D3D; font-family: "Rochester",cursive; font-size: 3em; padding: 20px 15px 30px 15px; text-align: center; font-weight: 700; }
-.section { color: #3D3D3D; text-align: center; font-size: 3em; font-family: "Rochester",serif; }
+.section { color: #3D3D3D; text-align: center; font-size: 2em; font-family: "Droid Sans",serif; padding-bottom: 15px; }
 .subsection { margin-bottom: 20px; }
 .subsection h3 { padding-bottom: 10px; font-size: 1em; text-align: center; font-weight: bold; border-bottom: 1px solid #DDDDDD; }
 .subsection img { display: block; margin: 0pt auto; padding-bottom: 20px; }
