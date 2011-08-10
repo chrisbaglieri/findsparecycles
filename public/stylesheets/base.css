@@ -1,6 +1,6 @@
 body { background: #F3F1E5; border-top: 5px solid #E6E5D9; color: #4D505D; }
 #header { padding-top: 20px; }
-#header h1 { font-size: 4em; color: #FF7F00; font-family: "bistro-script-web-1","bistro-script-web-2",cursive; }
+#header h1 { font-size: 4em; color: #FF7F00; font-family: "Rochester",cursive; }
 #primary-navigation ul { float: right; margin: 17px 0pt 0pt 0pt; }
 #primary-navigation ul li { display: inline; list-style-type: none; padding: 0pt 5px 0pt 5px; border-right: 1px solid #DDDDDD; }
 #primary-navigation ul li a { font-weight: bold; text-decoration: none; color: #0C0E1A; }
@@ -8,12 +8,12 @@ body { background: #F3F1E5; border-top: 5px solid #E6E5D9; color: #4D505D; }
 
 #content { margin-bottom: 50px; }
 #headbox  { background: white url(../images/headbox-bottom.jpg) repeat-x scroll center bottom; border-color: #E6E5D9; border-style: solid solid none; border-width: 1px; margin: 15px 0pt 25px 5px; width: 781px; }
-#headbox h2 { color: #3D3D3D; font-family: "museo-slab-1","museo-slab-2",serif; font-size: 3em; padding: 20px 15px 30px 15px; text-align: center; font-weight: 700; }
-.section { color: #3D3D3D; text-align: center; font-size: 3em; font-family: "museo-1","museo-2",serif; font-weight: 700; }
+#headbox h2 { color: #3D3D3D; font-family: "Rochester",cursive; font-size: 3em; padding: 20px 15px 30px 15px; text-align: center; font-weight: 700; }
+.section { color: #3D3D3D; text-align: center; font-size: 3em; font-family: "Rochester",serif; }
 .subsection { margin-bottom: 20px; }
 .subsection h3 { padding-bottom: 10px; font-size: 1em; text-align: center; font-weight: bold; border-bottom: 1px solid #DDDDDD; }
 .subsection img { display: block; margin: 0pt auto; padding-bottom: 20px; }
 #contact-information { text-align: center; background: #E6E5D9; padding: 10px 0pt; }
-.client { font-size: 2em; }
+.client { font-size: 2em; font-family: "Droid Sans",serif; }
 .casestudy { margin-bottom: 50px; }
 #footer { height: 25px; padding: 10px 0pt 0pt 0pt; }
